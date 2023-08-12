@@ -3,17 +3,18 @@ import MainTitle from '../components/MainTitle'
 import img1 from '../assets/images/wallace.jpg'
 import img2 from '../assets/images/miguel.jpg'
 import QuotesCarrousel from '../components/QuotesCarrousel'
+import { Link } from 'react-router-dom'
 
 function Carrousell() {
   return (
-    <div className='flex flex-col'>
+    <Link to="search" className='flex flex-col'>
         <MainTitle className="" >Museo del libro</MainTitle>
-        <div className=' p-44  pt-20 '>
+        <div className=' p-44  py-20 '>
             <QuotesCarrousel/>
         </div>
-        {/* <img src={img1} alt="bioImg" />
-        <img src={img2} alt="bioImg" /> */}
-    </div>
+        <p className=' text-center'>Toca la pantalla para buscar</p>
+        
+    </Link>
   )
 }
 

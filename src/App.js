@@ -14,8 +14,8 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Carrousell/>} />
-      <Route path='/search' element={<SearchAuthors/>} />
-      <Route path='/bio' element={<Biography/>} />
+      <Route path='search' element={<SearchAuthors/>} />
+      <Route path='bio' element={<Biography/>} />
     </Routes>
   );
 }
