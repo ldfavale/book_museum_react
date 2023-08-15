@@ -27,7 +27,7 @@ const SearchAuthors = () => {
         <MainTitle>Museo del libro</MainTitle>
         <div className="px-8 -mt-20">
           <div className="flex flex-col flex-1 h-screen justify-center">
-              <p className="text-5xl font-bold text-center p-8">
+              <p className="text-5xl  text-center p-8">
               Buscar {searchText}
               </p>
             <div className='flex flex-row items-center space-x-4 p-4 mb-0 m-12 bg-gray-200'>
