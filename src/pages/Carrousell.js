@@ -7,7 +7,7 @@ function Carrousell() {
   return (
     <Link to="search" className='flex flex-col'>
       <Header showBackButton={false} />
-        <div className='flex flex-row justify-center pt-16'>
+        <div className='flex flex-row justify-center pt-10'>
           <div className='w-[22rem]'>
               <QuotesCarrousel/>
           </div>

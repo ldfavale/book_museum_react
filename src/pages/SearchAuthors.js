@@ -22,8 +22,8 @@ const SearchAuthors = () => {
       return (
         <>
       <Header showBackButton={false}/>
-        <div className="px-8 -mt-32">
-          <div className="flex flex-col flex-1 h-screen justify-center">
+        <div className="px-8 mt-48">
+          <div className="flex flex-col flex-1 h-screen ">
             {/* Search Title */}
               <p className="text-5xl  text-center p-8">
               Buscar 
