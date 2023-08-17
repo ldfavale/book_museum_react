@@ -14,7 +14,7 @@ function Carrousell() {
               <QuotesCarrousel/>
           </div>
         </div>
-        <p className='text-center pt-28'>Toca la pantalla para buscar</p>
+        <p className='text-center text-xs pt-16'>Toca la pantalla para buscar</p>
         
     </Link>
   )
