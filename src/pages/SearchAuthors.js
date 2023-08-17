@@ -9,7 +9,6 @@ const SearchAuthors = () => {
         setSearchText(event.target.value)
         let filteredAuthors = text === "" ? [] : authors.filter((author) => author.name.toLowerCase().includes(text.toLowerCase()))
         setfilteredAuthorsNames(filteredAuthors)
-        console.log("filteredAuthorsNames",filteredAuthorsNames)
       }
     
       const [authors,setAuthors] = useState([]);
@@ -22,7 +21,7 @@ const SearchAuthors = () => {
       
       return (
         <>
-        <MainTitle>Museo del libro</MainTitle>
+        <MainTitle className="text-3xl text-center px-8 pt-8" >Museo del libro</MainTitle>
         <div className="px-8 -mt-20">
           <div className="flex flex-col flex-1 h-screen justify-center">
             {/* Search Title */}
