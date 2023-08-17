@@ -10,3 +10,11 @@ body{
 *:focus, *:focus-visible {
     outline: none;
 }
+
+.red-text{
+    color: rgb(185 28 28);
+}
+
+.calibri{
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}

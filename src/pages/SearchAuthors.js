@@ -36,11 +36,11 @@ const SearchAuthors = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                 </svg>
                 {/* Search Input*/}
-                <input type="text" className='  focus-visible:border-none flex flex-1 text-xl font-[calibri]'  placeholder='Busca Autores por nombre o Nro' onChange={handleChange} />
+                <input type="text" className='  focus-visible:border-none flex flex-1 text-xl font-[calibri] calibri'  placeholder='Busca Autores por nombre o Nro' onChange={handleChange} />
             </div>
             {/* Suggestion Box*/}
             {!!filteredAuthorsNames.length &&
-          <div className="border border-black border-2 -mt-10 pt-14 rounded-b-3xl border-t-0 p-4 mx-12 text-center font-[calibri]" >
+          <div className="border border-black border-2 -mt-9 pt-14 rounded-b-3xl border-t-0 p-4 mx-12 text-center font-[calibri] calibri" >
           
           {filteredAuthorsNames.map( author => {
                 return <div key={author.id}  >
