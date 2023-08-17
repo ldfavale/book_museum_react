@@ -1,6 +1,6 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import MainTitle from '../components/MainTitle'
+import Header from '../components/Header'
 
 
 const SearchAuthors = () => {
@@ -21,8 +21,8 @@ const SearchAuthors = () => {
       
       return (
         <>
-        <MainTitle className="text-3xl text-center px-8 pt-8" >Museo del libro</MainTitle>
-        <div className="px-8 -mt-28">
+      <Header showBackButton={false}/>
+        <div className="px-8 -mt-32">
           <div className="flex flex-col flex-1 h-screen justify-center">
             {/* Search Title */}
               <p className="text-5xl  text-center p-8">

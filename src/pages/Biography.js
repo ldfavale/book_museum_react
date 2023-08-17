@@ -1,12 +1,12 @@
 import React from 'react'
 import bioImg from '../assets/images/biografia_wallace.jpg'
-import BackButton from '../components/BackButton'
+import Header from '../components/Header'
 
 function Biography() {
   return (
     <div>
+      <Header showBackButton={true}/>
       <img src={bioImg} alt="bioImg" />
-      <BackButton className='w-16 absolute top-20 left-3' />
     </div>
   )
 }
