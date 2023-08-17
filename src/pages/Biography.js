@@ -6,7 +6,9 @@ function Biography() {
   return (
     <div>
       <Header showBackButton={true}/>
-      <img src={bioImg} alt="bioImg" />
+      <div className='flex justify-center'>
+        <img className='w-[38rem]' src={bioImg} alt="bioImg" />
+      </div>
     </div>
   )
 }
